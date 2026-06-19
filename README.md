@@ -1,7 +1,7 @@
 <h1 align="center">🩺 Obesity Levels — Exploratory Data Analysis</h1>
 
 <p align="center">
-  <em>A full statistical deep-dive into obesity trends across Mexico, Peru &amp; Colombia — from raw data to predictive modelling.</em>
+  <em>A full statistical deep-dive into obesity trends across Mexico, Peru &amp; Colombia — from raw data to predictive modelling</em>
 </p>
 
 <p align="center">
