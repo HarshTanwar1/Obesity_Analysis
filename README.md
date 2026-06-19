@@ -21,7 +21,7 @@ This project applies the **complete data-analysis pipeline** to a real-world hea
 
 <br>
 
-## ✨ Key Insights
+## ✨ Key Highlights
 
 | 🔍 Finding                                        | 📊 Result                                      |
 | ------------------------------------------------- | ---------------------------------------------- |
@@ -33,7 +33,7 @@ This project applies the **complete data-analysis pipeline** to a real-world hea
 
 <br>
 
-## 🛠️ Teach Stack
+## 🛠️ Tech Stack
 
 <table>
   <tr>
@@ -130,9 +130,8 @@ jupyter notebook Obesity_Levels.ipynb
 
 ---
 
-
 <div align="center">
 
-⭐ If you found this project useful, consider giving it a star!
+⭐ _If you found this project helpful or interesting, consider giving it a star!_ ⭐
 
 </div>
