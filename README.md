@@ -62,30 +62,55 @@ The notebook is structured as a progressive EDA workflow:
 
 ## 📂 Dataset
 
-The dataset describes obesity levels in individuals from **Mexico, Peru and Colombia**, spanning:
+The dataset describes obesity levels in individuals from **Mexico, Peru and Colombia** across **2,111 records** and **17 attributes**:
 
-- **Demographics:** Gender, Age, Height, Weight
-- **Eating habits:** high-calorie food (FAVC), vegetable frequency (FCVC), main meals (NCP), snacking (CAEC), alcohol (CALC), water intake (CH2O)
-- **Lifestyle:** physical activity (FAF), technology use (TUE), smoking (SMOKE), calorie monitoring (SCC), transport (MTRANS)
-- **Target:** obesity classification (`NObeyesdad`)
+| Feature                          | Description                                                |
+| -------------------------------- | ---------------------------------------------------------- |
+| `Gender`                         | Gender of the individual                                   |
+| `Age`                            | Age of the individual                                      |
+| `Height`                         | Height (in metres)                                         |
+| `Weight`                         | Weight (in kilograms)                                      |
+| `family_history_with_overweight` | Whether a family member has suffered from being overweight |
+| `FAVC`                           | Frequent consumption of high-calorie food                  |
+| `FCVC`                           | Frequency of consumption of vegetables                     |
+| `NCP`                            | Number of main meals per day                               |
+| `CAEC`                           | Consumption of food between meals (snacking)               |
+| `SMOKE`                          | Whether the individual smokes                              |
+| `CH2O`                           | Daily water intake                                         |
+| `SCC`                            | Whether the individual monitors calorie consumption        |
+| `FAF`                            | Physical activity frequency                                |
+| `TUE`                            | Time using technology devices                              |
+| `CALC`                           | Frequency of alcohol consumption                           |
+| `MTRANS`                         | Mode of transportation used                                |
+| `NObeyesdad`                     | Obesity classification (**target variable**)               |
 
 <br>
 
 ## ⚡ Getting Started
 
+### 1. Clone the repository
+
 ```bash
-# 1. Clone the repository
 git clone https://github.com/HarshTanwar1/Obesity_Analysis.git
 cd Obesity_Analysis
+```
 
-# 2. (Recommended) create and activate a virtual environment
+### 2. Create and activate a virtual environment _(recommended)_
+
+```bash
 python3 -m venv venv
 source venv/bin/activate        # On Windows: venv\Scripts\activate
+```
 
-# 3. Install dependencies
+### 3. Install the dependencies
+
+```bash
 pip install jupyter pandas numpy matplotlib seaborn scikit-learn statsmodels
+```
 
-# 4. Launch the notebook
+### 4. Launch the notebook
+
+```bash
 jupyter notebook Obesity_Levels.ipynb
 ```
 
