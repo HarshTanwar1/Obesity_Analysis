@@ -23,40 +23,23 @@ This project applies the **complete data-analysis pipeline** to a real-world hea
 
 ## ✨ Key Highlights
 
-| 🔍 Finding                                        | 📊 Result                                      |
-| ------------------------------------------------- | ---------------------------------------------- |
-| Strongest driver of Weight                        | **Height** (corr. 0.95)                        |
-| Next strongest correlations                       | **Water intake / CH2O** (0.88), **Age** (0.79) |
-| Significant categorical factors (ANOVA, p < 0.05) | **CAEC**, **CALC**, **MTRANS**                 |
-| Natural clusters in the data (K-Means)            | **3 clusters**                                 |
-| Best predictor set for Weight (highest R²)        | **Age, Height, FCVC, CH2O, FAF, TUE**          |
+- 🔍 **Height** is the strongest driver of Weight (correlation **0.95**).
+- 💧 Next strongest correlations: **water intake / CH2O** (0.88) and **Age** (0.79).
+- 📊 ANOVA flags **CAEC**, **CALC** and **MTRANS** as statistically significant factors for Weight (p < 0.05).
+- 🧩 K-Means reveals **3 natural clusters** in the data.
+- 🎯 Best predictor set for Weight (highest R²): **Age, Height, FCVC, CH2O, FAF, TUE**.
 
 <br>
 
 ## 🛠️ Tech Stack
 
-<table>
-  <tr>
-    <td><b>Data Wrangling</b></td>
-    <td>pandas · NumPy — loading, cleaning, missing-value &amp; duplicate detection</td>
-  </tr>
-  <tr>
-    <td><b>Visualization</b></td>
-    <td>Matplotlib (+ 3D <code>mplot3d</code>) · seaborn — heatmaps, histograms w/ KDE, box plots, regression &amp; 3D cluster plots</td>
-  </tr>
-  <tr>
-    <td><b>Statistics &amp; Testing</b></td>
-    <td>statsmodels — OLS regression, ANOVA hypothesis testing &amp; p-value interpretation</td>
-  </tr>
-  <tr>
-    <td><b>Machine Learning</b></td>
-    <td>scikit-learn — K-Means clustering, Linear &amp; Multiple Linear Regression, train/test split, evaluation metrics</td>
-  </tr>
-  <tr>
-    <td><b>Environment</b></td>
-    <td>Python 3.10 · Jupyter Notebook</td>
-  </tr>
-</table>
+| Layer                    | Technologies                                                                                                  |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| **Data Wrangling**       | pandas · NumPy — loading, cleaning, missing-value & duplicate detection                                       |
+| **Visualization**        | Matplotlib (+ 3D `mplot3d`) · seaborn — heatmaps, histograms w/ KDE, box plots, regression & 3D cluster plots |
+| **Statistics & Testing** | statsmodels — OLS regression, ANOVA hypothesis testing & p-value interpretation                               |
+| **Machine Learning**     | scikit-learn — K-Means clustering, Linear & Multiple Linear Regression, train/test split, evaluation metrics  |
+| **Environment**          | Python 3.10 · Jupyter Notebook                                                                                |
 
 <br>
 
